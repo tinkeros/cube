@@ -17,6 +17,7 @@ A Rubik's cube clone for TempleOS/TinkerOS
  - Hot keys implementing beginner algorithms to help make solving easier.
  - Outline of steps to solve the cube in a beginner layer by layer fashion.
  - Best number of moves/times are saved in the registry for each difficulty level.
+ - You can re-play the same shuffled puzzle over again by including Cube.HC.Z and then running: ```CubeGame(difficulty,puzzle_number);```
 
 ## Install
  - Copy Cube.ISO.C onto virtual hard drive and mount in OS (```MountFile("Cube.ISO.C");```) or place disc image in virtual CD drive.;
