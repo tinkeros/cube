@@ -27,8 +27,8 @@ $FG,4$o$FG$ - $FG,4$Orient$FG$ the top cube closet to you. $FG,4$(RDrd)x2$FG$
 $FG,4$c$FG$ - Permute top to make $FG,4$cross$FG$.$FG$ (assumes bottom 2 layers done) $FG,4$(fruRUF)$FG$
 $FG,4$p$FG$ - $FG,4$Permute$FG$ the top 3 corners farthest from you. $FG,4$(urULuRUl)$FG$
 $FG,4$e$FG$ - $FG,4$Exchange$FG$ top left front middle with the top left back middle. $FG,4$(ruRuruuRu)$FG$
-$FG,4$m$FG$ - $FG,4$Move middle$FG$ top left cube to layer two layer two on the right. $FG,4$(urURUFuf)$FG$
-$FG,4$M$FG$ - $FG,4$Move middle$FG$ top left cube to layer two layer two on the left. $FG,4$(ULulufUF)$FG$
+$FG,4$m$FG$ - $FG,4$Move middle$FG$ top left cube to left middle layer on the right. $FG,4$(urURUFuf)$FG$
+$FG,4$M$FG$ - $FG,4$Move middle$FG$ top left cube to left middle layer on the left. $FG,4$(ULulufUF)$FG$
 
 Beginners cube solve guide with help from cheat key algorithms:
 
