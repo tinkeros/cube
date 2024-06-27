@@ -433,7 +433,30 @@ U0 DoMFB(Bool dir=0)
 Bool IsSolved()
 {
   I64 i,j;
-  for (i=0;i<26;i++)
+
+  // Check all, but ignore fake middle cube
+
+  for (i=0;i<12;i++)
+  {
+    for (j=i+1;j<13;j++)
+    {
+      if (cubes[i].cxb!=cubes[j].cxb) return FALSE;
+      if (cubes[i].cyb!=cubes[j].cyb) return FALSE;
+      if (cubes[i].czb!=cubes[j].czb) return FALSE;
+      if (cubes[i].cxf!=cubes[j].cxf) return FALSE;
+      if (cubes[i].cyf!=cubes[j].cyf) return FALSE;
+      if (cubes[i].czf!=cubes[j].czf) return FALSE;
+    }
+  }
+
+  if (cubes[12].cxb!=cubes[14].cxb) return FALSE;
+  if (cubes[12].cyb!=cubes[14].cyb) return FALSE;
+  if (cubes[12].czb!=cubes[14].czb) return FALSE;
+  if (cubes[12].cxf!=cubes[14].cxf) return FALSE;
+  if (cubes[12].cyf!=cubes[14].cyf) return FALSE;
+  if (cubes[12].czf!=cubes[14].czf) return FALSE;
+
+  for (i=14;i<26;i++)
   {
     for (j=i+1;j<27;j++)
     {
