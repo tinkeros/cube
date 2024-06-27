@@ -689,7 +689,7 @@ Bool CubeGame(U64 difficulty=20,U64 puz_num=0)
   "Press F1 to toggle help\n";
 
   orig_doc=Fs->display_doc;
-  help_doc=DocRead("CubeHelp.DD.Z");
+  help_doc=DocRead("CubeHelp.DD");
   DocCursor(,help_doc);
   DocCursor(,orig_doc);
   DocTop(help_doc);
